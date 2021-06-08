@@ -1,0 +1,98 @@
+
+tr {
+    background-color: rgb(245, 245, 245);
+}
+
+.titleText{
+    font-size: 460%;
+    color: whitesmoke;
+}
+
+.jumbotron{
+    background-color:rgb(153, 181, 191);
+
+
+}
+#flpTable{
+    width:1000px;
+    margin: auto;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#container{
+    margin: auto;
+    height:300px;
+    width:750px;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+
+#viewContainer{
+    margin: auto;
+    height:300px;
+    width:750px;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+
+#statusContainer{
+    margin: auto;
+    height:200px;
+    width:750px;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+
+button{
+    margin:auto;
+    display:block;
+}
+
+
+h2{
+    text-align:center;
+}
+
+html {
+    min-height: 100%;
+    margin: auto;
+    font-size: 16px;
+}
+body {
+    border: 25px solid rgb(153, 181, 191);
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: rgb(217, 230, 240);
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
